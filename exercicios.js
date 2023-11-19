@@ -100,7 +100,12 @@ function retornaUltimoElemento(array) {
 // EXERCÍCIO 11
 function trocaPrimeiroEUltimo(array) {
   // implemente sua lógica aqui
+  let primeiroelento = array.shift();
+  let ultimoelento = array.pop();
+  array.unshift(ultimoelento);
+  array.push(primeiroelento);
 
+  return array;
 }
 
 // EXERCÍCIO 12
