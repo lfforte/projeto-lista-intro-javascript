@@ -111,7 +111,7 @@ function trocaPrimeiroEUltimo(array) {
 // EXERCÍCIO 12
 function checaIgualdadeDesconsiderandoCase(string1, string2) {
   // implemente sua lógica aqui
-
+  return string1.toLowerCase() === string2.toLowerCase();
 }
 
 // EXERCÍCIO 13
